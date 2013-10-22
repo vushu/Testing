@@ -7,4 +7,5 @@ let gange b = b * b
 let main argv = 
     printfn "%A" argv
     printfn "%d" (gange 4)
+    let ma = System.Console.ReadLine()
     0 // return an integer exit code
